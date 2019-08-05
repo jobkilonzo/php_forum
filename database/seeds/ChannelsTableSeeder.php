@@ -1,5 +1,5 @@
 <?php
-use ChartForum\Channel;
+use PHPForum\Channel;
 use Illuminate\Database\Seeder;
 
 class ChannelsTableSeeder extends Seeder
