@@ -9,13 +9,13 @@
     <ul class="list-group">
       @foreach($notifications as $notification)
       <li class="list-group-item">
-        @if($notification->type == 'ChartForum\Notifications\NewReplyAdded')
+        @if($notification->type == 'PHPForum\Notifications\NewReplyAdded')
         A new reply was added to your discussion
         <strong>
         {{ $notification->data['discussion']['title']}}</strong>
         <a href="{{ route('discussions.show', $notification->data['discussion']['slug'])}}" class="btn float-right btn-sm btn-info">View discussion</a>
         @endif
-        @if($notification->type == 'ChartForum\Notifications\ReplyMarkedAsBestReply')
+        @if($notification->type == 'PHPForum\Notifications\ReplyMarkedAsBestReply')
         Your reply to the discussion <strong>{{ $notification->data['discussion']['title'] }}</strong> was marked as best reply.
         <a href="{{ route('discussions.show', $notification->data['discussion']['slug'])}}" class="btn float-right btn-sm btn-info">
           View discussion

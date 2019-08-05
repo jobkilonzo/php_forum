@@ -1,6 +1,6 @@
 <?php
 
-use ChartForum\Http\Controllers\UsersController;
+use PHPForum\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
