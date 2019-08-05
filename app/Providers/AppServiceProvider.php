@@ -1,10 +1,10 @@
 <?php
 
-namespace ChartForum\Providers;
+namespace PHPForum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
-use ChartForum\Channel;
+use PHPForum\Channel;
 
 class AppServiceProvider extends ServiceProvider
 {
