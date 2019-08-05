@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Requests;
+namespace PHPForum\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Providers;
+namespace PHPForum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

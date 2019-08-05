@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Middleware;
+namespace PHPForum\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
 

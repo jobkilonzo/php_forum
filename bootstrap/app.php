@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    ChartForum\Http\Kernel::class
+    PHPForum\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    ChartForum\Console\Kernel::class
+    PHPForum\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    ChartForum\Exceptions\Handler::class
+    PHPForum\Exceptions\Handler::class
 );
 
 /*

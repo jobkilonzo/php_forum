@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Controllers;
+namespace PHPForum\Http\Controllers;
 
 use Illuminate\Http\Request;
 

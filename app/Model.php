@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum;
+namespace PHPForum;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 
 /**

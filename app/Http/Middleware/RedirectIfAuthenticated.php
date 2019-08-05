@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Middleware;
+namespace PHPForum\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

@@ -1,12 +1,12 @@
 <?php
 
-namespace ChartForum\Notifications;
+namespace PHPForum\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
-use ChartForum\Discussion;
+use PHPForum\Discussion;
 
 class ReplyMarkedAsBestReply extends Notification implements ShouldQueue
 {

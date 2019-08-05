@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum;
+namespace PHPForum;
 
 
 class Reply extends Model

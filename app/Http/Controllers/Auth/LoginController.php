@@ -1,8 +1,8 @@
 <?php
 
-namespace ChartForum\Http\Controllers\Auth;
+namespace PHPForum\Http\Controllers\Auth;
 
-use ChartForum\Http\Controllers\Controller;
+use PHPForum\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

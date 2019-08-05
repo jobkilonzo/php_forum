@@ -1,9 +1,9 @@
 <?php
 
-namespace ChartForum\Http\Controllers\Auth;
+namespace PHPForum\Http\Controllers\Auth;
 
-use ChartForum\User;
-use ChartForum\Http\Controllers\Controller;
+use PHPForum\User;
+use PHPForum\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \ChartForum\User
+     * @return \PHPForum\User
      */
     protected function create(array $data)
     {

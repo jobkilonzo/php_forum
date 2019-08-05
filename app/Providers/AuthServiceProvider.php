@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Providers;
+namespace PHPForum\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'ChartForum\Model' => 'ChartForum\Policies\ModelPolicy',
+        // 'PHPForum\Model' => 'PHPForum\Policies\ModelPolicy',
     ];
 
     /**

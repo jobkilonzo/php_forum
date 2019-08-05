@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum;
+namespace PHPForum;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

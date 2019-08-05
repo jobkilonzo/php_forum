@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChartForum\\": "app/"
+            "PHPForum\\": "app/"
         },
         "classmap": [
             "database/seeds",

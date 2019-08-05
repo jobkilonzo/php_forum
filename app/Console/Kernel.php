@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Console;
+namespace PHPForum\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

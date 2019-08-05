@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Middleware;
+namespace PHPForum\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode as Middleware;
 

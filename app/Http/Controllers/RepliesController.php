@@ -1,11 +1,11 @@
 <?php
 
-namespace ChartForum\Http\Controllers;
+namespace PHPForum\Http\Controllers;
 
 use Illuminate\Http\Request;
-use ChartForum\Http\Requests\CreateReplyRequest;
-use ChartForum\Discussion;
-use ChartForum\Notifications\NewReplyAdded;
+use PHPForum\Http\Requests\CreateReplyRequest;
+use PHPForum\Discussion;
+use PHPForum\Notifications\NewReplyAdded;
 class RepliesController extends Controller
 {
     /**

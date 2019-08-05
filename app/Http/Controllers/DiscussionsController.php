@@ -1,11 +1,11 @@
 <?php
 
-namespace ChartForum\Http\Controllers;
+namespace PHPForum\Http\Controllers;
 
 use Illuminate\Http\Request;
-use ChartForum\Http\Requests\CreateDiscussionRequest;
-use ChartForum\Discussion;
-use ChartForum\Reply;
+use PHPForum\Http\Requests\CreateDiscussionRequest;
+use PHPForum\Discussion;
+use PHPForum\Reply;
 class DiscussionsController extends Controller
 {
   public function __construct()

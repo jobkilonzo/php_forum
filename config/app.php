@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        ChartForum\Providers\AppServiceProvider::class,
-        ChartForum\Providers\AuthServiceProvider::class,
-        // ChartForum\Providers\BroadcastServiceProvider::class,
-        ChartForum\Providers\EventServiceProvider::class,
-        ChartForum\Providers\RouteServiceProvider::class,
+        PHPForum\Providers\AppServiceProvider::class,
+        PHPForum\Providers\AuthServiceProvider::class,
+        // PHPForum\Providers\BroadcastServiceProvider::class,
+        PHPForum\Providers\EventServiceProvider::class,
+        PHPForum\Providers\RouteServiceProvider::class,
 
     ],
 

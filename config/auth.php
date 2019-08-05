@@ -68,7 +68,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => ChartForum\User::class,
+            'model' => PHPForum\User::class,
         ],
 
         // 'users' => [

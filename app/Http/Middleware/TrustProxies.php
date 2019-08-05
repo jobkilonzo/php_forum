@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Http\Middleware;
+namespace PHPForum\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Fideloper\Proxy\TrustProxies as Middleware;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ChartForum\Providers;
+namespace PHPForum\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
